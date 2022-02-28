@@ -4,6 +4,10 @@
 
 const Ssr = (props) =>{
  
-  return ()
-
+  return (
+      <>
+      <h1>Side serving rendering</h1>
+      
+      </>
+  )
 }
