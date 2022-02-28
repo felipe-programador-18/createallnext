@@ -16,10 +16,13 @@ const Ssr = (props) =>{
 
 
 
+
+// i have always remeber that serve to adding data in dashboards!!!
+
 export async function getServerSideProps () {
     return {
         props:{
-             data: new Data () .getTime,
+             data: new Date().getTime(),
              nome:'Felipe programer martins 18'
         }
     }
