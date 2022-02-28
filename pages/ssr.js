@@ -8,6 +8,22 @@ const Ssr = (props) =>{
       <>
       <h1>Side serving rendering</h1>
       
+      <pre> {JSON.stringify(props, null, 2)}  </pre>
+      
       </>
   )
 }
+
+
+
+export async function getServerSideProps () {
+    return {
+        props:{
+             data: new Data () .getTime,
+             nome:'Felipe programer martins 18'
+        }
+    }
+}
+
+
+export default Ssr
