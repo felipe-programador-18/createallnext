@@ -1,6 +1,8 @@
 //practice and remeber about side serving rendering
 //is very well because is page lot fast
 // when a page have lot acess is better way to working is side serving rendering
+import Link from "next/link"
+
 
 const Ssr = (props) =>{
  
@@ -10,6 +12,10 @@ const Ssr = (props) =>{
       
       <pre> {JSON.stringify(props, null, 2)}  </pre>
       
+      <Link href='/'>
+      <a>Volta página principal</a>
+      </Link> 
+
       </>
   )
 }
