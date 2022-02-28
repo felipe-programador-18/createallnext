@@ -36,6 +36,10 @@ const Home = () =>{
      <a>NEVER GIVE UP</a>
      </Link> 
 
+     <Link href='/ssr'>
+     <a> Pratice SSR </a>
+     </Link>
+
 
     </>
 }
