@@ -1,0 +1,1 @@
+// Practice about site serving generation
