@@ -20,7 +20,7 @@ const Newspaper = (props) =>{
 export async function getStaticProps(context){
    return {
        props: {
-           data: new Date().getDay(),
+           data: new Date().getFullYear(),
            nome:'Programmer fullstack mobile'
        }
    }
