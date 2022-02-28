@@ -9,7 +9,8 @@ const Here = () =>{
      <Link href='/'>
      <a> BACK AGAIN</a>
      </Link>
-
+      
+     <p>Pratice more and more always remember this is page static he don't work api</p>
 
     </>
 }
