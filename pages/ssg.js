@@ -1,4 +1,5 @@
 // Practice about site serving generation
+import Link from "next/link"
 
 const Newspaper = (props) =>{
 
@@ -7,11 +8,16 @@ const Newspaper = (props) =>{
     <h3>Create test about site serving generation</h3>
        
      <pre> {JSON.stringify(props,null, 2)}  </pre>
+     
+     <Link href='/'>
+        <a>Site static generation</a>
+        </Link>
+
     </>
 }
 
 
-export async function getServingSideProps(){
+export async function getStaticProps(context){
    return {
        props: {
            data: new Date().getDay(),
@@ -19,17 +25,6 @@ export async function getServingSideProps(){
        }
    }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -40,6 +40,10 @@ const Home = () =>{
      <a> Pratice SSR </a>
      </Link>
 
+     <Link href='/ssg'>
+        <a>Site static generation</a>
+        </Link>
+
 
     </>
 }
